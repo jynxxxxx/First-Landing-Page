@@ -1,0 +1,158 @@
+.hf, .container2, .container3, .cta  {
+    padding: 24px 100px;
+}
+
+.hf {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 24px;
+}  
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.opener {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.topsub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container1 {
+    display: flex;
+    gap: 24px;
+}
+
+.container1 img {
+    display: flex;
+    min-width: 0;
+    min height: 0;
+    max-height: 600px;
+}
+
+.topsection {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    margin: 24px 12px 24px 0;
+}
+
+.topsection button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    width: fit-content;
+    padding: 4px 16px;
+}
+
+.randin {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding: 24px;
+}
+
+.container2 img {
+    max-width: 100%;
+    display: flex;
+    flex: 1 1 50px;
+    width: 800px;
+    height: auto;
+}
+
+.mid{
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+}
+
+.quoter{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cta button{
+    border: white solid 1px;
+    border-radius: 4px;
+    color: white;
+    background-color: #3882f6;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    padding: 8px 16px; 
+}
+
+.cta {
+    background-color: #3882f6;
+    border-radius: 4px;
+    display: flex;
+    color: white;
+    margin: 24px auto;
+    width: max-content;
+    height: max-content;
+    align-items: center;
+    gap: 24px;
+}
+
+.topline{
+    font-size: 120%;
+    font-weight: bold;
+
+}
+.ctatext {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright {
+   text-align: center;
+   height: min-content;
+}
+
+
